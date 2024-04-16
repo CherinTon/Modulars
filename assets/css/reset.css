@@ -126,3 +126,7 @@ img {
     display: block;
     object-fit: cover;
 }
+button {
+    border: none;
+    cursor: pointer;
+}
