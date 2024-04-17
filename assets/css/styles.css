@@ -191,7 +191,7 @@ button {
     flex-shrink: 0;
     background: var(--btn-color);
     position: absolute;
-    bottom: -12px;
+    bottom: 0;
     left: 0;
 }
 .header__nav-action {
@@ -380,7 +380,7 @@ button {
     justify-content: space-between;
     padding: 77px 122px;
 }
-.trademark-item a {
+.trademark-item:nth-child(3) {
     display: flex;
     gap: 11px;
     align-items: center;
@@ -827,6 +827,7 @@ button {
     line-height: 22px;
 }
 .blog__item-desc {
+    display: block;
     margin-top: 20px;
     width: 320px;
     height: 90px;
