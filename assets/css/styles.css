@@ -352,8 +352,9 @@ button {
 }
 .flower {
     position: absolute;
-    top: 5px;
-    left: -40px;
+    top: 10px;
+    left: -38px;
+    z-index: 1;
 }
 .header__hero-flo2 {
     margin-top: 250px;
