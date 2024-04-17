@@ -380,6 +380,9 @@ button {
     justify-content: space-between;
     padding: 77px 122px;
 }
+.trademark-item {
+    cursor: pointer;
+}
 .trademark-item:nth-child(3) {
     display: flex;
     gap: 11px;
@@ -834,7 +837,7 @@ button {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: 600;
-    line-height: 30px; /* 166.667% */
+    line-height: 26px; /* 166.667% */
 }
 .blog__item-line {
     width: 100%;
@@ -903,6 +906,9 @@ button {
     padding-right: 5px;
     margin: -12px 70px 0 132px;
     float: right;
+}
+.left__footer-email svg:hover {
+    color: #fff;
 }
 .left__footer-email::after {
     margin-top: 32px;
