@@ -173,8 +173,8 @@ button {
     justify-content: space-between;
     gap: 38px;
 }
-.header__nav-list:hover {
-    opacity: 0.9;
+.header__nav-list li:hover {
+    opacity: 0.8;
 }
 .header__nav-list a {
     color: var(--text-color);
